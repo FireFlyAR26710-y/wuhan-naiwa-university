@@ -1,0 +1,14 @@
+{
+  "name": "wuhan-naiwa-university",
+  "version": "1.0.0",
+  "description": "武汉奶蛙大学：奶蛙校园传送门，含动画跳转与 Netlify 去重陪伴计数",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22.12.0"},
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {"@netlify/blobs": "11.1.4"}
+}
